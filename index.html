@@ -5,13 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Alura Geek</title>
+    <link rel="icon" href="img/favicon-16x16.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>🦸🏽My Alura Geek💜</h1>
+        <h1 class="title">🦸🏽My Alura Geek💜</h1>
     </header>
+    <main class="main-container">
+        <section>
+            <h1>My products</h1>
+            <div data-products class="products-container"></div>
+        </section>
+
+        <section>
+            <h1>Add products</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="name..." type="text">
+                <input data-price placeholder="price..." type="text">
+                <input data-image placeholder="image..." type="text">
+                <span data-message class="error-message"></span>
+                <div class="button-container">
+                    <button type="reset" class="button-clear" id="button">Limpiar...</button>
+                    <button type="submit" class="button-submit" id="button">Enviar...</button>
+                </div>
+            </form>
+        </section>
+    </main>
 
 </body>
 
