@@ -31,8 +31,29 @@ const renderProducts = async () => {
         });
     } catch (error) {
         console.log(error)
-
     }
 }
+form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const name = document.querySelector("[data-name]").value;
+    const price = document.querySelector("[data-price]").value;
+    const image = document.querySelector("[data-image]").value;
+
+    // console.log(name);
+    // console.log(price);
+    // console.log(image);
+
+    try {
+        const newProduct = await servicesProducts.createProduct(name, price, image);
+        console.log(newProduct);
+        const newCard = createCard(newProduct);
+        productContainer.appendChild(newCard);
+
+    } catch (error) {
+        console.log(error)
+    }
+    form.reset();
+})
+
 renderProducts();
 
