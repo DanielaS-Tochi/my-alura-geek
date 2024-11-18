@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14 Pro",
+      "price": 999.99,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-hero"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 1199.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/es/2302/gallery/es-galaxy-s23-ultra-s918-sm-s918bzeaefe-thumb-534004865"
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM5",
+      "price": 349.99,
+      "image": "https://www.sony.com/image/sony-headphones"
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 13 Laptop",
+      "price": 1399.99,
+      "image": "https://www.dell.com/sites/image/dell-xps-13"
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Series 8",
+      "price": 399.99,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-series-8-hero"
+    },
+    {
+      "id": 6,
+      "name": "Bose Portable Speaker",
+      "price": 299.99,
+      "image": "https://assets.bose.com/speaker-hero-image"
+    },
+    {
+      "id": 7,
+      "name": "Nikon D7500 Camera",
+      "price": 999.99,
+      "image": "https://www.nikon.com/images/product/camera-d7500"
+    },
+    {
+      "id": 8,
+      "name": "Razer DeathAdder V2",
+      "price": 69.99,
+      "image": "https://assets.razerzone.com/deathadder-v2-gaming-mouse"
+    }
+  ]
+}

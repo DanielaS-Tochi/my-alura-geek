@@ -1,0 +1,22 @@
+{
+  "name": "my-alura-geek",
+  "version": "1.0.0",
+  "description": "Challenge Alura Geek (ONE program)",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server ./database/db.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielaS-Tochi/my-alura-geek.git"
+  },
+  "author": "Daniela Silvana Tochi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielaS-Tochi/my-alura-geek/issues"
+  },
+  "homepage": "https://github.com/DanielaS-Tochi/my-alura-geek#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
