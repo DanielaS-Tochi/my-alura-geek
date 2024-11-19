@@ -10,9 +10,11 @@
 </head>
 
 <body>
+
     <header>
-        <h1 class="title">🦸🏽My Alura Geek💜</h1>
+        <h1 class="title">My Alura Geek</h1>
     </header>
+
     <main class="main-container">
         <section>
             <h1>My products</h1>
@@ -21,26 +23,25 @@
 
         <section>
             <h1>Add products</h1>
-            <form class="form-container" data-form>
-                <input data-name placeholder="Name" type="text">
-                <input data-price placeholder="Price" type="text">
-                <input data-image placeholder="URL image" type="text">
-                <span data-message class="error-message"></span>
-                <div class="button-container">
-                    <button type="reset" class="button-clear" id="button">Limpiar</button>
-                    <button type="submit" class="button-submit" id="button1">Enviar</button>
-                </div>
-            </form>
+            <div class="form-wrapper">
+                <form class="form-container" data-form>
+                    <input data-name placeholder="Name" type="text">
+                    <input data-price placeholder="Price" type="text">
+                    <input data-image placeholder="URL image" type="text">
+                    <span data-message class="error-message"></span>
+                    <div class="button-container">
+                        <button type="reset" class="button-clear" id="button">Limpiar</button>
+                        <button type="submit" class="button-submit" id="button1">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
+
     <footer class="footer-container">
 
         <p>&copy; 2024 | Todos los derechos reservados</p>
-        <p>Daniela Silvana Tochi
-        <div>
-            <img src="img/favicon-16x16.png" alt="logo">
-        </div>
-        </p>
+        <p>My Alura Geek | Daniela Silvana Tochi</p>
     </footer>
     <script src="js/controllers/main.js" type="module"></script>
 </body>

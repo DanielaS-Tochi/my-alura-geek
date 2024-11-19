@@ -34,26 +34,30 @@ const renderProducts = async () => {
     }
 }
 form.addEventListener("submit", async (event) => {
-    event.preventDefault();
+    event.preventDefault(); // Evita el envío del formulario por defecto
+
     const name = document.querySelector("[data-name]").value;
     const price = document.querySelector("[data-price]").value;
     const image = document.querySelector("[data-image]").value;
 
-    // console.log(name);
-    // console.log(price);
-    // console.log(image);
+    // Validar que los campos no estén vacíos
+    if (!name || !price || !image) {
+        console.log("Por favor, completa todos los campos."); // Mensaje de error en consola
+        document.querySelector("[data-message]").textContent = "Por favor, completa todos los campos."; // Mostrar mensaje de error
+        return; // Detener la ejecución si hay campos vacíos
+    }
 
     try {
         const newProduct = await servicesProducts.createProduct(name, price, image);
         console.log(newProduct);
         const newCard = createCard(newProduct);
         productContainer.appendChild(newCard);
-
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
-    form.reset();
-})
+    form.reset(); // Limpiar el formulario después de enviar
+    document.querySelector("[data-message]").textContent = ""; // Limpiar el mensaje de error
+});
 
 renderProducts();
 

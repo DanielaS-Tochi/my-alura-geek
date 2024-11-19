@@ -1,52 +1,110 @@
-{
-  "products": [
-    {
-      "id": 1,
-      "name": "iPhone 14 Pro",
-      "price": 999.99,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-hero"
-    },
-    {
-      "id": 2,
-      "name": "Samsung Galaxy S23 Ultra",
-      "price": 1199.99,
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/es/2302/gallery/es-galaxy-s23-ultra-s918-sm-s918bzeaefe-thumb-534004865"
-    },
-    {
-      "id": 3,
-      "name": "Sony WH-1000XM5",
-      "price": 349.99,
-      "image": "https://www.sony.com/image/sony-headphones"
-    },
-    {
-      "id": 4,
-      "name": "Dell XPS 13 Laptop",
-      "price": 1399.99,
-      "image": "https://www.dell.com/sites/image/dell-xps-13"
-    },
-    {
-      "id": 5,
-      "name": "Apple Watch Series 8",
-      "price": 399.99,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-series-8-hero"
-    },
-    {
-      "id": 6,
-      "name": "Bose Portable Speaker",
-      "price": 299.99,
-      "image": "https://assets.bose.com/speaker-hero-image"
-    },
-    {
-      "id": 7,
-      "name": "Nikon D7500 Camera",
-      "price": 999.99,
-      "image": "https://www.nikon.com/images/product/camera-d7500"
-    },
-    {
-      "id": 8,
-      "name": "Razer DeathAdder V2",
-      "price": 69.99,
-      "image": "https://assets.razerzone.com/deathadder-v2-gaming-mouse"
-    }
-  ]
-}
+// {
+//   "products": [
+//     {
+//       "id": 1,
+//       "name": "iPhone 14 Pro",
+//       "price": 999.99,
+//       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-hero"
+//     },
+//     {
+//       "id": 2,
+//       "name": "Samsung Galaxy S23 Ultra",
+//       "price": 1199.99,
+//       "image": "https://images.samsung.com/is/image/samsung/p6pim/es/2302/gallery/es-galaxy-s23-ultra-s918-sm-s918bzeaefe-thumb-534004865"
+//     },
+//     {
+//       "id": 3,
+//       "name": "Sony WH-1000XM5",
+//       "price": 349.99,
+//       "image": "https://www.sony.com/image/sony-headphones"
+//     },
+//     {
+//       "id": 4,
+//       "name": "Dell XPS 13 Laptop",
+//       "price": 1399.99,
+//       "image": "https://www.dell.com/sites/image/dell-xps-13"
+//     },
+//     {
+//       "id": 5,
+//       "name": "Apple Watch Series 8",
+//       "price": 399.99,
+//       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-series-8-hero"
+//     },
+//     {
+//       "id": 6,
+//       "name": "Bose Portable Speaker",
+//       "price": 299.99,
+//       "image": "https://assets.bose.com/speaker-hero-image"
+//     },
+//     {
+//       "id": 7,
+//       "name": "Nikon D7500 Camera",
+//       "price": 999.99,
+//       "image": "https://www.nikon.com/images/product/camera-d7500"
+//     },
+//     {
+//       "id": 8,
+//       "name": "Razer DeathAdder V2",
+//       "price": 69.99,
+//       "image": "https://assets.razerzone.com/deathadder-v2-gaming-mouse"
+//     }
+//   ]
+// }
+
+//JSON ready for Mockyapi
+[
+  {
+    "name": "Darth Vader",
+    "price": "50",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+    "id": 1
+  },
+  {
+    "name": "Flash",
+    "price": "25",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+    "id": 2
+  },
+  {
+    "name": "Batman",
+    "price": "35",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+    "id": 3
+  },
+  {
+    "name": "Hulk",
+    "price": "45",
+    "image": "https://m.media-amazon.com/images/I/516X0YLRV+L._AC_SY879_.jpg",
+    "id": 5
+  },
+  {
+    "name": "Spider Man",
+    "price": "20",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_620343-MLA45333647274_032021-O.webp",
+    "id": 6
+  },
+  {
+    "name": "Capitán América",
+    "price": "50",
+    "image": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+    "id": 7
+  },
+  {
+    "name": "Raqueta",
+    "price": "757576",
+    "image": "https://img.freepik.com/foto-gratis/mujer-vistiendo-simulador-realidad-virtual_23-2148910261.jpg?uid=R122080657&ga=GA1.1.1902524089.1727925309&semt=ais_hybrid",
+    "id": "8"
+  },
+  {
+    "name": "Lens",
+    "price": "875565",
+    "image": "https://img.freepik.com/foto-gratis/mujer-vistiendo-simulador-realidad-virtual_23-2148910261.jpg?uid=R122080657&ga=GA1.1.1902524089.1727925309&semt=ais_hybrid",
+    "id": "9"
+  },
+  {
+    "name": "",
+    "price": "",
+    "image": "",
+    "id": "10"
+  }
+]
