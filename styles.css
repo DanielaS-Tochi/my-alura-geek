@@ -16,9 +16,9 @@ header {
 }
 
 img {
-  width: 100%; /* Asegúrate de que la imagen ocupe todo el ancho de la tarjeta */
-  height: auto; /* Mantiene la proporción de la imagen */
-  border-radius: 10px; /* Bordes redondeados, no ovalados */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .products-container {
@@ -28,7 +28,7 @@ img {
 }
 
 .card {
-  flex: 1 1 calc(25% - 20px); /* 4 tarjetas por fila con espacio */
+  flex: calc(100% / 4); /* 4 tarjetas por fila con espacio */
   margin: 10px;
   background-color: cornflowerblue;
   color: aliceblue;
@@ -40,6 +40,7 @@ img {
   align-items: center; /* Centra el contenido horizontalmente */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
+  height: 400px; /* Altura fija para todas las tarjetas */
 }
 
 .card:hover {
@@ -47,9 +48,10 @@ img {
 }
 
 .img-container {
-  max-width: 100%; /* Asegura que la imagen no exceda el ancho de la tarjeta */
-  height: auto; /* Mantiene la proporción de la imagen */
-  border-radius: 5px; /* Bordes redondeados para la imagen */
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 h1 {
@@ -116,9 +118,10 @@ input {
 }
 
 .error-message {
-  color: red; /* Cambia el color del texto a rojo */
-  font-size: 18px; /* Aumenta el tamaño de la fuente */
-  margin-top: 10px; /* Espacio superior para separar del formulario */
+  color: red;
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
 }
 
 .delete-button img {
